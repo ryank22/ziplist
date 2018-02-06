@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script src="ziplst.js"></script>
+</head>
+<body>
+
+</body>
+</html>
+
+console.log(ziplist(testList1, testList2));
+
+function zipListTheSimpleWay(list1, list2) {
+
+return _.flatten(_.zip(list1, list2));
+}
+
+console.log(zipListTheSimpleWay(testList1, testList2));
